@@ -22,8 +22,8 @@ const screenWidth = Dimensions.get("window").width;
 import { buyStock, sellStock } from "../../lib/trading";
 import { aiPredict } from "../../lib/ai";
 
-const FINNHUB_API_KEY = "d4j86ppr01queualugtgd4j86ppr01queualugu0";
-const POLYGON_API_KEY = "Bx_MEHIITa5XcetME0JJ8OLGlMiUTutW";
+const FINNHUB_API_KEY = "";
+const POLYGON_API_KEY = "";
 
 const daysForTimeframe = (tf) => {
   switch (tf) {
